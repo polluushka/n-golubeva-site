@@ -1,0 +1,27 @@
+.custom-header {
+    width: 100%;
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.header-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-link {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.logo-link {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
