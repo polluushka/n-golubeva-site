@@ -1,6 +1,6 @@
 export const translations = {
     ru: {
-        name: "НАТАЛЬЯ КАТИКОВА",
+        name: "НАТАЛЬЯ ГОЛУБЕВА",
         navigation: {
             home: "Главная",
             works: "Портфолио",
@@ -16,7 +16,7 @@ export const translations = {
     },
 
     en: {
-        name: "NATALYA KATIKOVA",
+        name: "NATALYA GOLUBEVA",
         navigation: {
             home: "Home",
             works: "Works",
