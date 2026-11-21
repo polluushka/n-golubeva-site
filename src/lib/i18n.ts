@@ -8,9 +8,10 @@ export const translations = {
             experience: "Опыт и образование",
             contacts: "Контакты"
         },
-        main: {
-            title: "",
-            description: "",
+        home: {
+            title_normal: "Shaping spaces,",
+            title_italic: "connecting nature",
+            description: "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis.",
             button: "Связаться"
         }
     },
@@ -24,10 +25,11 @@ export const translations = {
             experience: "Experience",
             contacts: "Contacts"
         },
-        main: {
-            title: "",
-            description: "",
-            button: "Сontact me"
+        home: {
+            title_normal: "Shaping spaces,",
+            title_italic: "connecting nature",
+            description: "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis.",
+            button: "Contact me"
         }
     },
 }

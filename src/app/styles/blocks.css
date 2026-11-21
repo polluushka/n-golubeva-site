@@ -1,0 +1,58 @@
+#home {
+    display: grid;
+    position: relative;
+}
+
+.home-content-text {
+    grid-area: 1/1;
+    width: fit-content;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-self: center;
+}
+
+.home-banner-container {
+    grid-area: 1/1;
+    justify-self: end;
+    aspect-ratio: 16/9;
+    width: 65%;
+    background: var(--snd-color);
+}
+
+.img-banner{
+    width: 100%;
+    height: 100%;
+}
+
+/* ADAPTIVES */
+
+@media (max-width: 920px) {
+    .home-content-text {
+        margin-left: 2rem;
+    }
+
+    .home-banner-container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .home-content-text {
+        align-self: end;
+        justify-self: center;
+        margin: 0 0 2rem 0;
+        width: 90%;
+    }
+
+    .home-banner-container {
+        aspect-ratio: 4/3;
+    }
+}
+
+@media (max-width: 420px) {
+    .home-banner-container {
+        aspect-ratio: 3/4;
+    }
+}

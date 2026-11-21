@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
+    position: relative;
 }
 
 .header-nav {
@@ -12,16 +13,40 @@
     gap: 1rem;
 }
 
-.header-link {
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
+/* ADAPTIVES */
+
+@media (max-width: 640px) {
+    .custom-header {
+        padding: 1rem;
+    }
+
+    .header-nav-container{
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 100;
+        padding: 2rem;
+        background-color: var(--bg);
+        min-height: 100vh;
+        transform: translateX(100%);
+        transition: 0.5s ease;
+        border-left: 1px solid var(--line);
+    }
+
+    .header-nav-open {
+        transform: translateX(0%);
+    }
+
+    .header-nav {
+        flex-direction: column;
+        margin-right: 4rem;
+    }
+
+    .burger-menu, .cross-nav {
+        display: block;
+    }
 }
 
-.logo-link {
-    font-family: "Playfair Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.5rem;
+@media (max-width: 420px) {
+  
 }
