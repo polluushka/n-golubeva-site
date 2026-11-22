@@ -14,7 +14,7 @@
 
 .h1-home {
     font-size: 4.375rem;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     color: var(--accent);
     line-height: 120%;
@@ -31,7 +31,7 @@
 
 .home-description {
     font-size: 1.125rem;
-    font-family: "Manrope";
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
     font-style: normal;
     width: 35%;
@@ -40,7 +40,7 @@
 
 .title-block {
     font-size: 1.75rem;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-weight: 600;
     font-style: normal;
     color: var(--accent);
@@ -48,7 +48,7 @@
 }
 
 .work-item-info {
-    font-family: "Manrope";
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -60,6 +60,30 @@
 .work-item-description {
     font-size: 1rem;
     color: var(--snd-accent);
+}
+
+.subtitle {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.125rem;
+    color: var(--accent);
+}
+
+.about-description {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 170%;
+}
+
+.tag-item{
+    border: 1px solid var(--snd-accent);
+    color: var(--snd-accent);
+    padding: 0.3125rem 0.625rem;
+    width: fit-content;
+    border-radius: 0.3125rem;
 }
 
 @media (max-width: 920px) {

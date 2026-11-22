@@ -5,6 +5,7 @@ import type { Locale } from "@/lib/i18n";
 import Header from "@/components/Header";
 import Home from "@/components/Home";
 import Works from "@/components/Works";
+import About from "@/components/About";
 
 type PageProp = {
     params: Promise<{ locale: Locale }>;
@@ -24,6 +25,7 @@ export default async function Page({ params } : PageProp) {
                 <Header locale={ currentLocale } navigation={ content.navigation } name={ content.name } />
                 <Home content={ content.home } />
                 <Works title_block={ content.navigation.works } works={ content.works } />
+                <About title_block={ content.navigation.about } about={ content.about } />
             </div>
         </div>
     )

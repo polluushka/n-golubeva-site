@@ -38,7 +38,7 @@ const Works = ({ title_block, works }: WorksProps) => {
                         return(
                             <div className="work-item" key={ `work-item-${index + 1}` }>
                                 <div className="work-img-container">
-                                    <img src="#" alt="" className="work-item-img" />
+                                    <img src="#" alt="" className="custom-img" />
                                 </div>
                                 <div className="work-item-info">
                                     <p className="work-item-title">{ index + 1 < 10 ? `0${index + 1}` : `${index + 1}` } — { work.name_project }</p>

@@ -21,7 +21,7 @@ const Home = ({ content }: HomeProps) => {
                 <Button content={ content.button }></Button>
             </div>
             <div className="home-banner-container">
-                <img src="#" alt="" className="img-banner" />
+                <img src="#" alt="" className="custom-img" />
             </div>
         </div>
     )
