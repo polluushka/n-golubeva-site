@@ -38,6 +38,30 @@
     line-height: 170%;
 }
 
+.title-block {
+    font-size: 1.75rem;
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-style: normal;
+    color: var(--accent);
+    margin-bottom: 1.25rem;
+}
+
+.work-item-info {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-item-title {
+    font-size: 1.125rem;
+}
+
+.work-item-description {
+    font-size: 1rem;
+    color: var(--snd-accent);
+}
+
 @media (max-width: 920px) {
     .h1-home {
         font-size: 4rem;
@@ -50,8 +74,17 @@
 
 @media (max-width: 640px) {
 
+    .title-block {
+        margin-left: 1rem;
+    }
+
+
     .home-description {
         width: 80%;
+    }
+
+    .work-item-info {
+        margin-left: 1rem;
     }
 }
 

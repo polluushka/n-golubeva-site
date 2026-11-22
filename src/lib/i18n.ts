@@ -12,8 +12,35 @@ export const translations = {
             title_normal: "Shaping spaces,",
             title_italic: "connecting nature",
             description: "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis.",
-            button: "Связаться"
-        }
+            button: "Связаться",
+            img: "#"
+        },
+        works: [
+            {
+                name_project: "Название проекта №1",
+                category: "Категория",
+                adress: "Адрес",
+                img: "#",
+            },
+            {
+                name_project: "Название проекта №2",
+                category: "Категория",
+                adress: "Адрес",
+                img: "#",
+            },
+            {
+                name_project: "Название проекта №3",
+                category: "Категория",
+                adress: "Адрес",
+                img: "#",
+            },
+            {
+                name_project: "Название проекта №4",
+                category: "Категория",
+                adress: "Адрес",
+                img: "#",
+            }
+        ]
     },
 
     en: {
@@ -30,7 +57,33 @@ export const translations = {
             title_italic: "connecting nature",
             description: "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque faucibus ex sapien vitae pellentesque sem placerat in id cursus mi pretium tellus duis convallis.",
             button: "Contact me"
-        }
+        },
+        works: [
+            {
+                name_project: "Name Prpject #1",
+                category: "Category",
+                adress: "Address",
+                img: "#",
+            },
+            {
+                name_project: "Name Prpject #2",
+                category: "Category",
+                adress: "Address",
+                img: "#",
+            },
+            {
+                name_project: "Name Prpject #3",
+                category: "Category",
+                adress: "Address",
+                img: "#",
+            },
+            {
+                name_project: "Name Prpject #4",
+                category: "Category",
+                adress: "Address",
+                img: "#",
+            }
+        ]
     },
 }
 

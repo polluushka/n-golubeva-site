@@ -16,7 +16,7 @@ const ButtonIconNav = ({ icon, classname }: ButtonIconProps) => {
     }
 
     return (
-        <button className={ classname } onClick={ () => toogleNavOpen() }>{ icon }</button>
+        <button type="button" className={ classname } onClick={ () => toogleNavOpen() }>{ icon }</button>
     )
 }
 
