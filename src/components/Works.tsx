@@ -31,7 +31,7 @@ type WorksProps = {
 const Works = ({ title_block, works }: WorksProps) => {
     return(
         <div id="works" className="default-block">
-            <h2 className="title-block">{ title_block }</h2>
+            <h2 className="text-special title-block">{ title_block }</h2>
             <div className="works-container">
                 {
                     works.map((work, index) => {
@@ -40,7 +40,7 @@ const Works = ({ title_block, works }: WorksProps) => {
                                 <div className="work-img-container">
                                     <img src="#" alt="" className="custom-img" />
                                 </div>
-                                <div className="work-item-info">
+                                <div className="text-default">
                                     <p className="work-item-title">{ index + 1 < 10 ? `0${index + 1}` : `${index + 1}` } — { work.name_project }</p>
                                     <p className="work-item-description">{ work.category } · { work.adress }</p>
                                 </div>

@@ -1,22 +1,29 @@
-.header-link {
+.text-default {
     font-family: "Manrope", sans-serif;
-    font-weight: 400;
     font-style: normal;
+}
+
+.standart-p {
+    line-height: 170%;
     font-size: 1rem;
+    font-weight: 400;
+    color: var(--text);
+}
+
+.text-special {
+    font-family: "Playfair Display", sans-serif;
+    font-style: normal;
+    color: var(--accent);
 }
 
 .logo-link {
-    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
-    font-style: normal;
     font-size: 1.5rem;
 }
 
 .h1-home {
     font-size: 4.375rem;
-    font-family: "Playfair Display", sans-serif;
     font-weight: 400;
-    color: var(--accent);
     line-height: 120%;
 }
 
@@ -30,60 +37,68 @@
 }
 
 .home-description {
-    font-size: 1.125rem;
-    font-family: "Manrope", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    color: var(--text);
+    font-size: 1.125rem;
     width: 35%;
-    line-height: 170%;
 }
 
 .title-block {
     font-size: 1.75rem;
-    font-family: "Playfair Display", sans-serif;
     font-weight: 600;
-    font-style: normal;
-    color: var(--accent);
     margin-bottom: 1.25rem;
-}
-
-.work-item-info {
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .work-item-title {
     font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--text);
 }
 
 .work-item-description {
     font-size: 1rem;
+    font-weight: 400;
     color: var(--snd-accent);
 }
 
 .subtitle {
-    font-family: "Playfair Display", sans-serif;
     font-weight: 600;
-    font-style: normal;
     font-size: 1.125rem;
-    color: var(--accent);
-}
-
-.about-description {
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-    line-height: 170%;
 }
 
 .tag-item{
+    font-size: 1rem;
     border: 1px solid var(--snd-accent);
     color: var(--snd-accent);
     padding: 0.3125rem 0.625rem;
     width: fit-content;
-    border-radius: 0.3125rem;
+    font-weight: 400;
+}
+
+.title-experience {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--accent);
+    hyphens: auto;
+}
+
+.label-experience {
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--text);
+}
+
+.marker-list {
+  list-style-type: disc;
+}
+
+.marker-list li::marker {
+    color: var(--accent);
+    font-size: 1em;
+}
+
+.marker-list li {
+    margin-left: 1.5rem;
 }
 
 @media (max-width: 920px) {
